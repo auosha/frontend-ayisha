@@ -18,7 +18,7 @@
         font-size: 30px;
     }
     nav ul{
-        background: #fff;
+        background:#fff;
         height: calc(100vh - 73.6px);
         position: fixed;
         left:-100vw;
@@ -34,6 +34,20 @@
         -o-transition: 1s ease-in-out;
         gap: 0 ;
 }
+.sticky header{
+    background: #fff;
+}
+nav a#logo{
+    color: #0062ff;
+  }
+  nav ul a{
+    color: #0062ff;
+  }
+  nav a#Download{
+    color: #fff;
+    background: #0062ff;
+    border-color: #0062ff;
+    }
 nav ul.active{
     left:0;
 }
@@ -56,6 +70,11 @@ nav ul a{
   .line{
     width: 70%;
   }
+
+  .imgslide{
+    width: 375px;
+  }
+
   .downloadWorld2{
     font-size: 23px;
     font-weight: 700;
